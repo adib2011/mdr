@@ -2,6 +2,8 @@
 MDR
 ===
 
+Forked from dportabella/mdr
+
 .. image:: https://travis-ci.org/scrapinghub/mdr.svg?branch=master
     :target: https://travis-ci.org/scrapinghub/mdr
 
