@@ -43,6 +43,18 @@ Compile and test
 
     OK
 
+    # alternative for running all tests - might sometimes fail with Attempted relative importa in non-package
+    $ find . -name 'test*py' -exec python '{}' \;
+    
+    # alternatively tests can also be ran from LiClipse if a class that loads all tests is added
+    
+        import unittest
+
+        def load_tests(loader, tests, pattern):
+            return loader.discover('.')
+
+        if __name__ == '__main__':
+            unittest.main()
 
 Usage
 =====
