@@ -94,3 +94,6 @@ class RecordFinderTest(unittest.TestCase):
 
         records = rf.find_best_division(elements, clusters)
         self.assertIsNone(records)
+
+if __name__ == '__main__':
+    unittest.main()

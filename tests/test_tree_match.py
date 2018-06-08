@@ -48,3 +48,5 @@ class TreeMatchTest(unittest.TestCase):
         self.assertEquals(7, _simple_tree_match(tree1, tree2))
         self.assertEquals(0.375, clustered_tree_match(tree1, tree2))
 
+if __name__ == '__main__':
+    unittest.main()
